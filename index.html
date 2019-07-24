@@ -16,9 +16,11 @@
             ]
         };
         var users = myfriends.friends;
+        var html = ' ';
         for(i =0; i<myfriends.friends.length; i++){
-            console.log(myfriends.friends[i]);
+            html += ' <p> ' + (myfriends.friends[i].first);
         }
+        document.getElementById("output").innerHTML = html;
     </script>
 
 </body>
