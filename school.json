@@ -1,0 +1,30 @@
+<html>
+
+<head>
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Welcome to Ajax</h1>
+    <script>
+        var person = {
+            "Name": "Joe",
+            "Last Name": "Miller",
+            "Address": {
+                "Street": "Neverland 42"
+            },
+            "Hobbies": [
+                "doing stuff",
+                "dreaming"
+            ]
+        };
+
+        console.log(person);
+    </script>
+
+</body>
+
+</html>
+
+
+
